@@ -1,13 +1,12 @@
-﻿#include "iostream"
-#include "main.h"
-
-using namespace std;
-
-int test_value {8};
+﻿#include  "io.h"
 
 int main()
 {
-    std::cout << dream_team::maxim;
-    // И тут мы снова что-то меняем
+    double a = getValue();
+    char sm = getOperator();
+    double b = getValue();
+ 
+    printResult(a, sm, b);
+ 
+    return 0;
 }
-
