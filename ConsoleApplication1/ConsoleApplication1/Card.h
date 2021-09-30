@@ -45,7 +45,7 @@ public:
 
     void print_card() const;
 
-    int get_card_value() const;
+    int get_card_value(int cur_points) const;
 
 private:
     cards_ranks m_rank;
